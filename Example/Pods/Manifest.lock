@@ -1,0 +1,14 @@
+PODS:
+  - HTMLParser (0.1.0)
+
+DEPENDENCIES:
+  - HTMLParser (from `../`)
+
+EXTERNAL SOURCES:
+  HTMLParser:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HTMLParser: 01132153c89c346112ac055a7e94d3c1acac17c7
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012E232E85E8D5544BC3C2544F4A458C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		25B61F9964C09A27419DBC120C0D56E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		30095ABEFCFBC94A56634B5C0558BE5D /* HTMLParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 787C510DAFF7E2E8A436A301476E7401 /* HTMLParser-dummy.m */; };
+		90CADB4B1C16270A007FA2E4 /* HTMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CADB491C16270A007FA2E4 /* HTMLParser.h */; };
+		90CADB4C1C16270A007FA2E4 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CADB4A1C16270A007FA2E4 /* HTMLParser.m */; };
+		AB351EE861283B82C9DFD82E2B2977C2 /* HTMLParser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4E126E27405FEF889FB6A2418A9BA430 /* HTMLParser.bundle */; };
+		B17BCF6E03F528A5F0522F16174574C5 /* HTMLParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F96132BC3C2763D076FC8EF8E9F3A77 /* HTMLParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5DB2B629C10669D229C47F9F6406F76 /* Pods-HTMLParser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C816C762D5B78EA9C821B7CBEC19ADE6 /* Pods-HTMLParser_Tests-dummy.m */; };
+		FF0832C5C95B14A35A6227E859310F95 /* Pods-HTMLParser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 238074726E603BC13C313559AC1E2183 /* Pods-HTMLParser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		965E38FBC1A2F556340F9CBD78329BE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9F173F546AB96C167AEED1144FDB44;
+			remoteInfo = "HTMLParser-HTMLParser";
+		};
+		FE11A1C21A53338246CA9C4929701C10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 822CD4BF2D4D811A03DCB353812D17A5;
+			remoteInfo = HTMLParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0798C489F5871E7FAD55958A80E3B2C0 /* HTMLParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTMLParser.xcconfig; sourceTree = "<group>"; };
+		1D9460CEE397E5332B18CF3B3FF9DF6B /* Pods-HTMLParser_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTMLParser_Tests-resources.sh"; sourceTree = "<group>"; };
+		238074726E603BC13C313559AC1E2183 /* Pods-HTMLParser_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTMLParser_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3A4A13927769F677BCDF84D97B15D8DF /* Pods-HTMLParser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HTMLParser_Tests.modulemap"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F96132BC3C2763D076FC8EF8E9F3A77 /* HTMLParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMLParser-umbrella.h"; sourceTree = "<group>"; };
+		4E126E27405FEF889FB6A2418A9BA430 /* HTMLParser.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTMLParser.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		56463679AECBB1A4FFAB338A69EE4397 /* HTMLParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HTMLParser.modulemap; sourceTree = "<group>"; };
+		6FD8A071A60AE1A93DE330B86767AD8D /* Pods-HTMLParser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTMLParser_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		72612744AEFD0180C2A3CE9681574210 /* Pods_HTMLParser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTMLParser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7636402E617BC3CDDBDB1C201BCA6A3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787C510DAFF7E2E8A436A301476E7401 /* HTMLParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTMLParser-dummy.m"; sourceTree = "<group>"; };
+		81F407C3130F4AB3D4C41F50DA9CC42B /* HTMLParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTMLParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90CADB491C16270A007FA2E4 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		90CADB4A1C16270A007FA2E4 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		9E094CADBED667AA29586EE9FF53CFF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B821D29F8D07314B458192EF73DE76D5 /* Pods-HTMLParser_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTMLParser_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7BD418B23CCB41774A8129B045853EC /* HTMLParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMLParser-prefix.pch"; sourceTree = "<group>"; };
+		C816C762D5B78EA9C821B7CBEC19ADE6 /* Pods-HTMLParser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTMLParser_Tests-dummy.m"; sourceTree = "<group>"; };
+		E4FEE729EE96354ACBB961A3DE1361C9 /* Pods-HTMLParser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTMLParser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E81895BD9F40C7BA6D8B03AA573C9129 /* Pods-HTMLParser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTMLParser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F163B82BFA33E76E5B9CB5BDAB3E5BBB /* Pods-HTMLParser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTMLParser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DFBE90364F1700BAFADC4B22BC4121B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B61F9964C09A27419DBC120C0D56E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893A9614E70DB91D9820B7B445A284A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012E232E85E8D5544BC3C2544F4A458C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7B4B35D9B55F80F6D724C75781BD83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033ED9C1495EC772D90D881065AAFB1B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56463679AECBB1A4FFAB338A69EE4397 /* HTMLParser.modulemap */,
+				0798C489F5871E7FAD55958A80E3B2C0 /* HTMLParser.xcconfig */,
+				787C510DAFF7E2E8A436A301476E7401 /* HTMLParser-dummy.m */,
+				C7BD418B23CCB41774A8129B045853EC /* HTMLParser-prefix.pch */,
+				3F96132BC3C2763D076FC8EF8E9F3A77 /* HTMLParser-umbrella.h */,
+				7636402E617BC3CDDBDB1C201BCA6A3F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HTMLParser";
+			sourceTree = "<group>";
+		};
+		04F3A7BB6491B2668C8DE5365256CBA5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				90CADB491C16270A007FA2E4 /* HTMLParser.h */,
+				90CADB4A1C16270A007FA2E4 /* HTMLParser.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		064A5CC843728B0C15B95F0475162BF5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94E3D13DD507CA2D20207699E90F76FE /* Pods-HTMLParser_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		604B3A4261B191308479863BB00AD8E0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE29CED2B36EB386026EB990F1CBAF39 /* HTMLParser */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				604B3A4261B191308479863BB00AD8E0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F31BDAB6B316B5EA30D4A64ECBC7233B /* Products */,
+				064A5CC843728B0C15B95F0475162BF5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94E3D13DD507CA2D20207699E90F76FE /* Pods-HTMLParser_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9E094CADBED667AA29586EE9FF53CFF9 /* Info.plist */,
+				3A4A13927769F677BCDF84D97B15D8DF /* Pods-HTMLParser_Tests.modulemap */,
+				E4FEE729EE96354ACBB961A3DE1361C9 /* Pods-HTMLParser_Tests-acknowledgements.markdown */,
+				E81895BD9F40C7BA6D8B03AA573C9129 /* Pods-HTMLParser_Tests-acknowledgements.plist */,
+				C816C762D5B78EA9C821B7CBEC19ADE6 /* Pods-HTMLParser_Tests-dummy.m */,
+				B821D29F8D07314B458192EF73DE76D5 /* Pods-HTMLParser_Tests-frameworks.sh */,
+				1D9460CEE397E5332B18CF3B3FF9DF6B /* Pods-HTMLParser_Tests-resources.sh */,
+				238074726E603BC13C313559AC1E2183 /* Pods-HTMLParser_Tests-umbrella.h */,
+				F163B82BFA33E76E5B9CB5BDAB3E5BBB /* Pods-HTMLParser_Tests.debug.xcconfig */,
+				6FD8A071A60AE1A93DE330B86767AD8D /* Pods-HTMLParser_Tests.release.xcconfig */,
+			);
+			name = "Pods-HTMLParser_Tests";
+			path = "Target Support Files/Pods-HTMLParser_Tests";
+			sourceTree = "<group>";
+		};
+		AE18DB8DCF7B9072D2A140EC314B08A0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				04F3A7BB6491B2668C8DE5365256CBA5 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE29CED2B36EB386026EB990F1CBAF39 /* HTMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				AE18DB8DCF7B9072D2A140EC314B08A0 /* Pod */,
+				033ED9C1495EC772D90D881065AAFB1B /* Support Files */,
+			);
+			name = HTMLParser;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F31BDAB6B316B5EA30D4A64ECBC7233B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E126E27405FEF889FB6A2418A9BA430 /* HTMLParser.bundle */,
+				81F407C3130F4AB3D4C41F50DA9CC42B /* HTMLParser.framework */,
+				72612744AEFD0180C2A3CE9681574210 /* Pods_HTMLParser_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EC57A400EBE212653D2D74A4B4B2D402 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CADB4B1C16270A007FA2E4 /* HTMLParser.h in Headers */,
+				B17BCF6E03F528A5F0522F16174574C5 /* HTMLParser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC72C637621857D177A7283EBE58B347 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0832C5C95B14A35A6227E859310F95 /* Pods-HTMLParser_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		069A68C1129146C539A0192F56FDCF58 /* Pods-HTMLParser_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F7C3F2E707EACF855F0D59D0C8F1F6 /* Build configuration list for PBXNativeTarget "Pods-HTMLParser_Tests" */;
+			buildPhases = (
+				A47ED4ECF9926D4D9C726E9233289EB0 /* Sources */,
+				2DFBE90364F1700BAFADC4B22BC4121B /* Frameworks */,
+				EC72C637621857D177A7283EBE58B347 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				287B65A9B912795B7B24FE4F5CBB7718 /* PBXTargetDependency */,
+			);
+			name = "Pods-HTMLParser_Tests";
+			productName = "Pods-HTMLParser_Tests";
+			productReference = 72612744AEFD0180C2A3CE9681574210 /* Pods_HTMLParser_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		822CD4BF2D4D811A03DCB353812D17A5 /* HTMLParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AD26C8C02BA18275ED346E9354D681 /* Build configuration list for PBXNativeTarget "HTMLParser" */;
+			buildPhases = (
+				7EA6F66822E2E5BF6E79872D37C0530D /* Sources */,
+				893A9614E70DB91D9820B7B445A284A1 /* Frameworks */,
+				C92B4BF10B248C9113D5AE14269F5B9B /* Resources */,
+				EC57A400EBE212653D2D74A4B4B2D402 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D76E219BA2C34BD797B7F82FF63C4611 /* PBXTargetDependency */,
+			);
+			name = HTMLParser;
+			productName = HTMLParser;
+			productReference = 81F407C3130F4AB3D4C41F50DA9CC42B /* HTMLParser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF9F173F546AB96C167AEED1144FDB44 /* HTMLParser-HTMLParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FE7AEB5D2FEA42A0C61293ABBEA141E /* Build configuration list for PBXNativeTarget "HTMLParser-HTMLParser" */;
+			buildPhases = (
+				89E51E97C5D72C6DECF3A1604E7B6108 /* Sources */,
+				BC7B4B35D9B55F80F6D724C75781BD83 /* Frameworks */,
+				B9CFED69FAFD116DA79F10309B1C77DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HTMLParser-HTMLParser";
+			productName = "HTMLParser-HTMLParser";
+			productReference = 4E126E27405FEF889FB6A2418A9BA430 /* HTMLParser.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F31BDAB6B316B5EA30D4A64ECBC7233B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				822CD4BF2D4D811A03DCB353812D17A5 /* HTMLParser */,
+				BF9F173F546AB96C167AEED1144FDB44 /* HTMLParser-HTMLParser */,
+				069A68C1129146C539A0192F56FDCF58 /* Pods-HTMLParser_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9CFED69FAFD116DA79F10309B1C77DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92B4BF10B248C9113D5AE14269F5B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB351EE861283B82C9DFD82E2B2977C2 /* HTMLParser.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EA6F66822E2E5BF6E79872D37C0530D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30095ABEFCFBC94A56634B5C0558BE5D /* HTMLParser-dummy.m in Sources */,
+				90CADB4C1C16270A007FA2E4 /* HTMLParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E51E97C5D72C6DECF3A1604E7B6108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47ED4ECF9926D4D9C726E9233289EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DB2B629C10669D229C47F9F6406F76 /* Pods-HTMLParser_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		287B65A9B912795B7B24FE4F5CBB7718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTMLParser;
+			target = 822CD4BF2D4D811A03DCB353812D17A5 /* HTMLParser */;
+			targetProxy = FE11A1C21A53338246CA9C4929701C10 /* PBXContainerItemProxy */;
+		};
+		D76E219BA2C34BD797B7F82FF63C4611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HTMLParser-HTMLParser";
+			target = BF9F173F546AB96C167AEED1144FDB44 /* HTMLParser-HTMLParser */;
+			targetProxy = 965E38FBC1A2F556340F9CBD78329BE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6029CC173DE2E10FAB65FECFCB06B1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FD8A071A60AE1A93DE330B86767AD8D /* Pods-HTMLParser_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HTMLParser_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTMLParser_Tests/Pods-HTMLParser_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HTMLParser_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA47CAB94490F36C1F4F9CDDB7E4DC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0798C489F5871E7FAD55958A80E3B2C0 /* HTMLParser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HTMLParser/HTMLParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTMLParser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTMLParser/HTMLParser.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HTMLParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C90164B4D8061248831451DE80643725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F163B82BFA33E76E5B9CB5BDAB3E5BBB /* Pods-HTMLParser_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HTMLParser_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTMLParser_Tests/Pods-HTMLParser_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HTMLParser_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA2242107DCFAD141E18E4BF6731F2B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0798C489F5871E7FAD55958A80E3B2C0 /* HTMLParser.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HTMLParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D1783C0D2F507B18B3A6A781E190EFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0798C489F5871E7FAD55958A80E3B2C0 /* HTMLParser.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HTMLParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E0AFEC66A7222F1E8A419DBF146E5B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0798C489F5871E7FAD55958A80E3B2C0 /* HTMLParser.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HTMLParser/HTMLParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTMLParser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTMLParser/HTMLParser.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HTMLParser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13F7C3F2E707EACF855F0D59D0C8F1F6 /* Build configuration list for PBXNativeTarget "Pods-HTMLParser_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90164B4D8061248831451DE80643725 /* Debug */,
+				6029CC173DE2E10FAB65FECFCB06B1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE7AEB5D2FEA42A0C61293ABBEA141E /* Build configuration list for PBXNativeTarget "HTMLParser-HTMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1783C0D2F507B18B3A6A781E190EFB8 /* Debug */,
+				CA2242107DCFAD141E18E4BF6731F2B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AD26C8C02BA18275ED346E9354D681 /* Build configuration list for PBXNativeTarget "HTMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0AFEC66A7222F1E8A419DBF146E5B01 /* Debug */,
+				BA47CAB94490F36C1F4F9CDDB7E4DC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
