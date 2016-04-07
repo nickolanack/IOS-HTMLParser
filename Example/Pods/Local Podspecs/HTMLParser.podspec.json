@@ -1,19 +1,16 @@
 {
   "name": "HTMLParser",
   "version": "0.1.0",
-  "summary": "A short description of HTMLParser.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/HTMLParser",
+  "summary": "Parse Information out of html",
+  "description": "A library to parse information out of html in Objective-c",
+  "homepage": "https://github.com/nickolanack/IOS-HTMLParser",
   "license": "MIT",
   "authors": {
     "nickolanack": "nickblackwell82@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/HTMLParser.git",
+    "git": "https://github.com/nickolanack/IOS-HTMLParser.git",
     "tag": "0.1.0"
-  },
-  "platforms": {
-    "ios": "7.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",

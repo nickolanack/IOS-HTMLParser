@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E6C50330580F7FE0F39B2257'
+               BlueprintIdentifier = 'DB16DB5BB3FAE21DC47DC123'
                BlueprintName = 'HTMLParser'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'HTMLParser.framework'>

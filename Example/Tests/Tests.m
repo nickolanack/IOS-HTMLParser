@@ -8,6 +8,8 @@
 
 @import XCTest;
 
+#import "HTMLParser.h"
+
 @interface Tests : XCTestCase
 
 @end
@@ -28,7 +30,9 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    
+    NSArray *images=[HTMLParser ParseImageUrls:@"<img src=\"abc\" />"];
+    XCTAssertEqualObjects(@"abc", [images objectAtIndex:0]);
 }
 
 @end
