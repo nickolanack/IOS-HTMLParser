@@ -12,7 +12,7 @@
 
 
 +(NSString *) StripHTML:(NSString *)html{
-
+    
     if(html==nil)return @"";
     NSRange r;
     NSString *s = [html copy];
@@ -25,15 +25,27 @@
 
 
 +(NSArray *)ParseImageUrls:(NSString *)html{
-    NSMutableArray *images=[[NSMutableArray alloc] init];
+    
+    return [HTMLParser ParseAttributeValues:@"src" ForTags:@"img" FromHtml:html];
+    
+}
+
++(NSArray *)ParseVideoPosterUrls:(NSString *)html{
+    
+    return [HTMLParser ParseAttributeValues:@"poster" ForTags:@"video" FromHtml:html];
+    
+}
+
++(NSArray *)ParseAttributeValues:(NSString *) attr ForTags:(NSString *)tag FromHtml:(NSString *) html{
+    NSMutableArray *values=[[NSMutableArray alloc] init];
     if(html==nil)return [NSArray array];
     NSString *s=[html copy];
     NSString *t=[s lowercaseString];
     NSRange r;
-    while((r=[t rangeOfString:@"<img"]).location!=NSNotFound){
-       // NSLog(s);
+    while((r=[t rangeOfString:[NSString stringWithFormat:@"<%@", tag]]).location!=NSNotFound){
+        // NSLog(s);
         s=[s substringFromIndex:r.location+4];
-        long start=[s rangeOfString:@"src"].location;
+        long start=[s rangeOfString:attr].location;
         if(start==NSNotFound)continue;
         s=[s substringFromIndex:start+3];
         start=[s rangeOfString:@"\""].location;
@@ -43,12 +55,12 @@
         if(end==NSNotFound)continue;
         
         NSString * img=[s substringToIndex:end];
-        [images addObject:img];
+        [values addObject:img];
         t=[s lowercaseString];
     }
-
-    return images;
-
+    
+    return values;
+    
 }
 
 @end

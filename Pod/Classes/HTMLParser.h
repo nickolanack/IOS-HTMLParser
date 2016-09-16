@@ -10,6 +10,7 @@
 
 @interface HTMLParser : NSObject
 +(NSString *) StripHTML:(NSString *)html;
-+(NSArray *) ParseImageUrls:(NSString *)html;
 
++(NSArray *) ParseImageUrls:(NSString *)html;
++(NSArray *) ParseVideoPosterUrls:(NSString *)html;
 @end
