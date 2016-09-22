@@ -1,8 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
+project 'HTMLParser'
 use_frameworks!
 
 
-target 'HTMLParser_Tests', :exclusive => true do
+target 'HTMLParser_Tests' do
   pod "HTMLParser", :path => "../"
 
   

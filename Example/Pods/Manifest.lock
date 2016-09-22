@@ -1,5 +1,5 @@
 PODS:
-  - HTMLParser (0.1.0)
+  - HTMLParser (0.1.2)
 
 DEPENDENCIES:
   - HTMLParser (from `../`)
@@ -9,6 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HTMLParser: 1384d58209e38229c64ac9f178ea208fa8ba8671
+  HTMLParser: 0aff2823b285cfe41996d55d1ae742a27ff89305
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: a27cff05a5ca4976feb9f65805a4ebecb5e0f8f2
+
+COCOAPODS: 1.1.0.rc.2
